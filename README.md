@@ -1,13 +1,13 @@
 # FFMPEG-Video-Streaming
 A 2-way communication between a Server and a Client focusing on streaming video files using the FFMPEG tool and Java wrapper.
 
-**Streaming Server** is responsible for creating a full list of video files and establishing a connection with the Client to wait for streaming requests.
-**Streaming Client** can request a specific format type and resolution of a video file to stream after achieving connection with the Server.
+- **Streaming Server** is responsible for creating a full list of video files and establishing a connection with the Client to wait for streaming requests.
+- **Streaming Client** can request a specific format type and resolution of a video file to stream after achieving connection with the Server.
 
 # Specifications to run
-- The 'Project' can be opened in any IDE. Run the 'Server' and 'Client files to start the process (more details for each in the next section).
+- The 'Project' can be opened in any IDE. Run the 'Server' and 'Client' files to start the process (more details for each in the next section).
 - It is required that the FFMPEG tool is properly installed on the user's operating system.
-- The 'videos' folder contains example sample files for a test run. Users can add their own video files in it with the following standards:
+- The 'videos' folder contains example sample files for a test run. Users can add their own video files in it with the following rules:
   1. Files must have supported format types (avi, mkv, mp4) and resolutions (240p, 360p, 480p, 720p, 1080p).
   2. Alter the file name to match the real format type and resolution, following the format 'file_name-resolutionp', e.g. 'video-720p'.
   Frequent checks are performed and the user is prompted through the apps to follow the necessary steps.
