@@ -14,8 +14,8 @@ A 2-way communication between a Server and a Client focusing on streaming video 
 - It is assumed that the user does not make any external changes to the 'videos' folder, such as adding, deleting or renaming files.
 - The download test link on the Client side has to be active in order to estimate the download speed.
 
-## Features
-# Streaming Server
+# Features
+## Streaming Server
 The user interface of the Server has the following buttons:
 - **Manual** that provides general information to run the app
 - **Files** for a list of present files in 'videos' folder
@@ -24,7 +24,7 @@ The user interface of the Server has the following buttons:
 - **Create** **must** be pressed to create all the missing video files **before** starting the connection. There is a short waiting time and the user is prompted upon completion
 - **Start connection** to finally establish the connection and wait for the Client's request
 
-# Streaming Client
+## Streaming Client
 The user interface of the Client has the following buttons:
 - **Manual** that provides general information to run the app
 - **Connect** to establish connection with the server. The Server **must** have enabled its connection first.
