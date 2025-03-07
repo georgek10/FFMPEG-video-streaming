@@ -17,20 +17,20 @@ A 2-way communication between a Server and a Client focusing on streaming video 
 # Features
 ## Streaming Server
 The user interface of the Server has the following buttons:
-- **Manual** that provides general information to run the app
-- **Files** for a list of present files in 'videos' folder
-- **Info** for a list of present format types and their resolutions for each video file
-- **Check** for a list of missing format types and their resolutions for each video file
-- **Create** **must** be pressed to create all the missing video files **before** starting the connection. There is a short waiting time and the user is prompted upon completion
-- **Start connection** to finally establish the connection and wait for the Client's request
+- **Manual** that provides general information to run the app.
+- **Files** for a list of present files in 'videos' folder.
+- **Info** for a list of present format types and their resolutions for each video file.
+- **Check** for a list of missing format types and their resolutions for each video file.
+- **Create** **must** be pressed to create all the missing video files **before** starting the connection. There is a short waiting time and the user is prompted upon completion.
+- **Start connection** to finally establish the connection and wait for the Client's request.
 
 ## Streaming Client
 The user interface of the Client has the following buttons:
-- **Manual** that provides general information to run the app
+- **Manual** that provides general information to run the app.
 - **Connect** to establish connection with the server. The Server **must** have enabled its connection first.
 Execute these steps to be able to stream a video file:
-1. Press the **Download Test** button to start a test of 5 seconds to estimate the download speed
-2. Select a **Format type** from the drop-down list
+1. Press the **Download Test** button to start a test of 5 seconds to estimate the download speed.
+2. Select a **Format type** from the drop-down list.
 3. Press the **Send** button to send the data to the Server, in order to receive the video list based on the sent data.
 4. Select a video file to stream from the drop-down list of the returned files.
 5. Select a protocol from the drop-down list. If none is selected, it is automatically filled based on the resolution of the selected file.
