@@ -808,7 +808,7 @@ public class Server
     {
         // method to start the application window after a slight delay so that initial checks and functions can be executed first
         EventQueue.invokeLater(() -> {
-            Server server = new Server();
+            new Server();
         });
     }
 }
